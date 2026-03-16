@@ -164,12 +164,12 @@ public class HRMenu
             Employee skeleton = new Employee();
             skeleton.setEmployeeId(employeeId);
             skeleton.setEmail(email);
-            skeleton.setFullName("");
-            skeleton.setPhone("");
-            skeleton.setDepartment("");
-            skeleton.setPosition("");
-            skeleton.setSalary(0.0);
-            skeleton.setLeaveDays(0);
+            skeleton.setFullName("Temp");
+            skeleton.setPhone("01234");
+            skeleton.setDepartment("department");
+            skeleton.setPosition("position");
+            skeleton.setSalary(1000.0);
+            skeleton.setLeaveDays(14);
             skeleton.setStatus("PENDING");
 
             employeeService.registerEmployee(skeleton);
